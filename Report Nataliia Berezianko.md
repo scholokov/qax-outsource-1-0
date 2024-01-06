@@ -3,7 +3,7 @@
 | -- | ---
 | Завдання | [Посилання](https://www.qax-camp.com.ua/courses/qax-outsource-1-0/lessons/out-1-0-reporting/)
 | QA | Nataliia Berezianko
-| Дата виконання | 25.12.2023-06.01.2024
+| Дата виконання | 07.12.2023-06.01.2024
    
 ##Висновки
 
