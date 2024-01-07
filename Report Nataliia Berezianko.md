@@ -1,18 +1,21 @@
-#Репорт згідно виконаному завданню:
+# Репорт згідно виконаному завданню:
 | Назва | Коментар
 | -- | ---
 | Завдання | [Посилання](https://www.qax-camp.com.ua/courses/qax-outsource-1-0/lessons/out-1-0-reporting/)
 | QA | Nataliia Berezianko
 | Дата виконання | 07.12.2023-06.01.2024
    
-##Висновки
+## Висновки
 
-Тестування проєкту “QAX-Outsours 1.0” було проведено для Desktop, Tablet, Mobile Phone на браузері Chrome та операційних системах Android, iOS.
-В результаті тестування виявлено 22 невдало пройдених тестів та заведено на них баг-репорти. 
-Згідно результатів тестування можна рекомендувати реліз проєкту для Desktop, але після виправлення заведених баг-репортів.
-Не рекомаендується реліз для Tablet та Mobile Phone, так як в процесі тестування виявлено, що Веб-сторінка зовсім не адаптується під необхідні розміри та не читабельна для Mobile Phone.
+Реліз проєкту `“QAX-Outsours 1.0”` для ***Desktop можна рекомендувати*** тільки після виправлення заведених баг-репортів.
+Згідно результатів тестування проєкту присутні помилки пов'язані з корректною роботою Вебсторінки (такі як непрацюючі кнопки та лінки, невідповідність вигдяду курсора та інше). 
 
-## Баг-репорти, відсортовані за пріоритетом
+Стосовно релізу для ***Tablet та Mobile Phone не рекомендується*** проводити, так як в процесі тестування виявлено, що Веб-сторінка зовсім не адаптується під необхідні розміри та не читабельна для Mobile Phone.
+
+Тестування проєкту `“QAX-Outsours 1.0”` було проведено для Desktop, Tablet, Mobile Phone на браузері Chrome та операційних системах Android, iOS. 
+В результаті тестування виявлено 22 невдало пройдених тестів та заведено на них баг-репорти.
+
+### Баг-репорти, відсортовані за пріоритетом
    |#     | Назва | Посилання | Пріоритет
    | ---- |  ---- | --------- | ------
    | 1 | Outsource 1.0 / The Website page and Content text are not adapted when the page is scaled (Tablet&Mobile) | https://github.com/scholokov/qax-outsource-1-0/issues/71 | high
@@ -38,7 +41,7 @@
    | 21 | Outsource 1.0 / On the Bottom Bar the Copyright has a symbol "(c) " | https://github.com/scholokov/qax-outsource-1-0/issues/73 | low
    | 22 | Outsource 1.0 / On the "Home "page, the Content blocks are the active areas when we click anywhere | https://github.com/scholokov/qax-outsource-1-0/issues/74 | low
 
-### Результати тестування:
+#### Результати тестування:
    
    - [Desktop](https://app.testomat.io/projects/qax-outsource-1-0/runs/ee7c00db),
    - [Tablet](https://app.testomat.io/projects/qax-outsource-1-0/runs/133ac396),
